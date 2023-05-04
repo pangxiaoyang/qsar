@@ -9,6 +9,8 @@ scikit-learn 1.0.2
 
 torch 1.10.0
 
+docopt 0.6.2
+
 
 #preprepare dataset
 
