@@ -19,7 +19,7 @@ import pandas as pd
 import numpy as np
 from QSAR_package.data_scale import dataScale
 from model_classification import RFC_training,SVC_training,DNNC_training
-from descriptors_calculation import des_screen
+from descriptors_screen import des_screen
 from QSAR_package.data_split import extractData
 from sklearn.preprocessing import MinMaxScaler
 from model_QSAR import RFR_training,SVR_training,DNNR_training
@@ -176,8 +176,6 @@ if __name__ == "__main__":
 
 
     
-    
-
 
 
 
